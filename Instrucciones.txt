@@ -1,0 +1,98 @@
+Instruccciones
+
+GIT
+
+clonar repositorio: url-
+
+En viusal
+
+-Se van a encontrar 2 carpetas una frontend y otra backend.
+-Si entramos en terminal a frontend, con el script npm strart ejecutamos la app de react
+-Si entreamos en terminal a backend, con el script npm start ejecutamos el servidor de node js
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+SOBRE bakend
+
+Hay varias rutas creadas con el archio index.js estan todas anidadas.
+Cada una llama datos (GET) y crea datos (POST) a traves de postman. Las rutas funcionan bien y traen los datos correspondientes 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+RUTAS
+
+
+upcoming
+
+POST: localhost:5001/upcoming/newupcoming
+GET: localhost:5001/upcoming/getupcoming
+
+
+nowplaying
+
+POST: localhost:5001/nowplaying/newnowplaying
+GET: localhost:5001/nowplaying/getnowplaying
+
+popular
+
+POST: localhost:5001/popular/newpopular
+GET: localhost:5001/popular/getpopular
+
+users
+
+POST: localhost:5001/users/newuser
+GET: localhost:5001/users/getuser
+
+
+--------------------------------------------------------------------------
+
+USERS
+
+Hay varios usuarios creados en la base de datos todos tienen password enriptados en la base de datos con la libreria bcrypt también se aplico jtw para el login.
+Todo esto se ve en la ruta users del servidor.
+
+senpai
+senpai2021gmail.com
+senpai2021
+
+juliansal
+juliansal2021@ggmail.com
+juliansal2021
+
+---------------------------------------------------------------------------------
+Bases de datos
+
+En base de datos opte por usar mongodb.
+Pude hacer los modelados de las bases y crear datos desde las rutas post mencionadas previamente.
+Las bases de datos están en una carpeta dentro de backend llamada base de datos.
+
+
+--------------------------------------------------------------------------
+
+Sobre el Frontend
+
+A la hora de cambiar la API externa por los datos locales dejando los mismos datos que la API externa no aparece en pantalla la imagen y nombres de las películas.
+Intente realizar un modelado de la base de datos en mongoose para tomar los datos en una sola array y tampoco los tomo al app.
+Por esta razon deje una api con la ruta externa y tanto estreno como las más vistas con la API local.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
