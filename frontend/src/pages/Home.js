@@ -19,7 +19,7 @@ function Home () {
   useEffect(() => {
     getPopularMovies()
       .then((response) => {
-        setPopularMovies(response.results);
+        setPopularMovies(response);
       })
       .catch((error) => {
         console.log("Error: ", error);
@@ -29,17 +29,19 @@ function Home () {
     useEffect(() => {
       getUpcomingMovies()
         .then((response) => {
-          setUpcomingMovies(response.results);
+          setUpcomingMovies(response);
+          console.log(response)
         })
         .catch((error) => {
           console.log("Error: ", error);
         });
     }, []);
 
+
     useEffect(() => {
       getNowPlayingMovies()
         .then((response) => {
-          setNowPlayingMovies(response.results);
+          setNowPlayingMovies(response);
         })
         .catch((error) => {
           console.log("Error: ", error);

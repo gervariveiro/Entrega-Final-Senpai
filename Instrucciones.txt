@@ -1,21 +1,19 @@
-Instruccciones
-
 GIT
 
-clonar repositorio: url-
+clonar repositorio: url: https://github.com/gervariveiro/Entrega-Final-Senpai
 
-En viusal
+En visualcode
 
--Se van a encontrar 2 carpetas una frontend y otra backend.
--Si entramos en terminal a frontend, con el script npm strart ejecutamos la app de react
--Si entreamos en terminal a backend, con el script npm start ejecutamos el servidor de node js
+-Se van a encontrar 2 carpetas: una frontend y otra backend.
+-Si entramos en terminal a /frontend, con el script npm strart ejecutamos la app de react
+-Si entramos en terminal a /backend, con el script npm start ejecutamos el servidor de node js
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-SOBRE bakend
+Sobre backend
 
-Hay varias rutas creadas con el archio index.js estan todas anidadas.
-Cada una llama datos (GET) y crea datos (POST) a traves de postman. Las rutas funcionan bien y traen los datos correspondientes 
+Hay varias rutas creadas con el archivo index.js están todas anidadas.
+Cada una llama datos (GET) y crea datos (POST) a través de postman. Las rutas funcionan bien y traen los datos correspondientes 
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 RUTAS
 
 
@@ -45,7 +43,7 @@ GET: localhost:5001/users/getuser
 
 USERS
 
-Hay varios usuarios creados en la base de datos todos tienen password enriptados en la base de datos con la libreria bcrypt también se aplico jtw para el login.
+Hay varios usuarios creados en la base de datos todos tienen password encriptados en la base de datos con la libreria bcrypt también se aplico jtw para el login.
 Todo esto se ve en la ruta users del servidor.
 
 senpai
@@ -68,31 +66,4 @@ Las bases de datos están en una carpeta dentro de backend llamada base de datos
 
 Sobre el Frontend
 
-A la hora de cambiar la API externa por los datos locales dejando los mismos datos que la API externa no aparece en pantalla la imagen y nombres de las películas.
-Intente realizar un modelado de la base de datos en mongoose para tomar los datos en una sola array y tampoco los tomo al app.
-Por esta razon deje una api con la ruta externa y tanto estreno como las más vistas con la API local.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+En la carpeta src/api se modificó el archivo sustituyendo la api externa por la local con sus url correspondientes, se adaptaron a este cambio las funciones GET en la página Home.

@@ -1,8 +1,8 @@
-const API_KEY = '76cb9956a2915c574207bdfb67307034';
-const BASE_URL = 'https://api.themoviedb.org/3';
+/*const API_KEY = '76cb9956a2915c574207bdfb67307034';
+const BASE_URL = 'https://api.themoviedb.org/3';*/
 
 export const getPopularMovies = () => {
-    return fetch(`${BASE_URL}/movie/popular?api_key=${API_KEY}`)
+    return fetch(`localhost:5001/popular/getpopular`)
         .then((response) => response.json())
             }
 
