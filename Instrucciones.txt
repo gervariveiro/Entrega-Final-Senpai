@@ -1,6 +1,6 @@
 GIT
 
-clonar repositorio: url: https://github.com/gervariveiro/Entrega-Final-Senpai
+clonar repositorio: url: https://github.com/gervariveiro/Entrega-Final-Senpai.git
 
 En visualcode
 
