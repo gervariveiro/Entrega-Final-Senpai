@@ -2,7 +2,7 @@
 const BASE_URL = 'https://api.themoviedb.org/3';*/
 
 export const getPopularMovies = () => {
-    return fetch(`localhost:5001/popular/getpopular`)
+    return fetch(`http://localhost:5001/popular/getpopular`)
         .then((response) => response.json())
             }
 
